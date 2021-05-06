@@ -1,0 +1,64 @@
+.home-main-container{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.home-title{
+    color: #5d5e5c;
+}
+
+.home-title strong{
+    color: #0092d6;
+}
+
+.books-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.single-book-title{
+    color: #5d5e5c;
+    margin: 0;
+}
+
+.single-book-author{
+    margin: 0;
+    margin-top: .5rem;
+    color: #0092d6;
+}
+
+.single-book-year{
+    margin: 0;
+    margin-top: .3rem;
+    color: #0092d6;
+}
+
+.single-book{
+    width: 28%;
+    margin-right: 2%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.add-book-input{
+    display: block;
+    margin-bottom: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    width: 30%;
+}
+
+.add-book-button{
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    width: 15%;
+    background: #0092d6;
+    border: 1px solid #0092d6;
+    color: #FFFFFF;
+}
